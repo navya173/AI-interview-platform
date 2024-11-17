@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pre-Interview Setup</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Pre-Interview Setup</h1>
+            <p>Ensure your camera and microphone are working properly before the interview.</p>
+        </header>
+        <section class="setup">
+            <div class="device-check">
+                <div id="cameraStatus" class="device-status">
+                    <label for="camera">Camera Check</label>
+                    <button id="checkCameraBtn">Check Camera</button>
+                    <span id="cameraStatusMessage">Not checked yet</span>
+                </div>
+                <div id="microphoneStatus" class="device-status">
+                    <label for="microphone">Microphone Check</label>
+                    <button id="checkMicBtn">Check Microphone</button>
+                    <span id="micStatusMessage">Not checked yet</span>
+                </div>
+            </div>
+            <button id="proceedBtn" disabled>Proceed to Interview</button>
+        </section>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
